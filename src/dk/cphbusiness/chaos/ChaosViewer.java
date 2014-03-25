@@ -25,7 +25,7 @@ public class ChaosViewer extends JFrame {
   private JMenuItem previousMenuItem;
   private JMenuItem firstMenuItem;
   private Plane canvas;
-  private final Map<String, PlaneObserver> models = new HashMap<>();
+  private final Map<String, PlaneObserver> models = new HashMap<String, PlaneObserver>();
   private PlaneObserver model;
 
   public ChaosViewer() {
