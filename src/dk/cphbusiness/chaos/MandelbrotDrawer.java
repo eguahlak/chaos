@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dk.cphbusiness.chaos;
 
 import dk.cphbusiness.utils.Complex;
@@ -11,12 +7,8 @@ import dk.cphbusiness.utils.Plane.Point;
 import dk.cphbusiness.utils.PlaneObserver;
 import java.awt.Color;
 
-/**
- *
- * @author anders
- */
 public class MandelbrotDrawer implements PlaneObserver {
-  private Color[] colors = new Color[1024];
+  private final Color[] colors = new Color[1024];
 
   public MandelbrotDrawer() {
     for (int i = 0; i < 1024; i++) {

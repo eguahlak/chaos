@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package dk.cphbusiness.chaos;
 
 import dk.cphbusiness.utils.Plane;
@@ -9,10 +5,6 @@ import dk.cphbusiness.utils.Plane.Point;
 import dk.cphbusiness.utils.PlaneObserver;
 import static java.lang.Math.sqrt;
 
-/**
- *
- * @author anders
- */
 public class FractalDrawer implements PlaneObserver {
   public static final int COAST = 0;
   public static final int SKIES = 1;
